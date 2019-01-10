@@ -12,6 +12,7 @@ class Backer
     binding.
     pry
     @backed_projects << project
+    project.backers << self
   end 
   
 end 
